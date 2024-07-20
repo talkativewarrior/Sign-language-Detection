@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['A', 'B', 'HELLO', 'ILOVEYOU', 'THANKS']
+
+roboflow:
+  workspace: studies-zyaqp
+  project: signs-e8bz3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/studies-zyaqp/signs-e8bz3/dataset/1
